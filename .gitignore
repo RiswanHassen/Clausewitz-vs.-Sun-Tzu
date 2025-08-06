@@ -1,0 +1,31 @@
+# Systemdateien
+.DS_Store
+Thumbs.db
+
+# Editor-/IDE-Settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Backup- und temporäre Dateien
+*~
+*.bak
+*.tmp
+*.swp
+
+# Exportierte Formate
+*.pdf
+*.docx
+*.odt
+
+# Node/npm (falls du dir irgendwann ein Tool baust)
+node_modules/
+package-lock.json
+
+# Mac/Linux Cache
+__pycache__/
+
+# Ignore all PNGs except the one used in the repo
+*.png
+!assets/clausewitz-vs-suntzu-fight.png
